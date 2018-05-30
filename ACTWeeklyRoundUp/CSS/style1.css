@@ -82,6 +82,12 @@
     display: inline-block;
     text-align: left;
 }
+
+.innerTable .mergedLargeColumn {
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+}
 /*.center table .innerTable td a {
                         width: 20px;
                         display: inline-block;
