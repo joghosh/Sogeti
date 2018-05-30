@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>AWS Online Talks</title>
+    <link async href="http://fonts.googleapis.com/css?family=Nova%20Flat" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css" />
     <style>
         .center {
             line-height: 200px;
@@ -11,11 +12,24 @@
             text-align: center;
         }
 
+        .enjoy-css {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            border: none;
+            font: normal 16px/1 "Lucida Console", Monaco, monospace;
+            color: rgba(111,117,150,1);
+            text-indent: 1px;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        }
+
         .textcenter {
             line-height: 10px;
             height: 30px;
             text-align: center;
-            font-weight: bold;
+            font-weight: normal;
             font-size: 18px;
         }
 
@@ -26,13 +40,46 @@
             vertical-align: middle;
             width: 800px;
             border-radius: 10px;
-            border: 2px solid #ffffff;
-            background: linear-gradient(to bottom right, #62c3f8, #f4f3ee);
+            border: 2px solid #f9efdf;
             text-align: left;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 12px;
             color: #323232;
         }
+
+            .center table .innerTable {
+                line-height: 1.5;
+                display: inline-block;
+                vertical-align: middle;
+                table-layout: fixed;
+                width: 780px;
+                border-radius: 5px;
+                border: 2px solid #ffffff;
+                text-align: left;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 12px;
+                color: #323232;
+            }
+
+        .firstColumn {
+            width: 400px;
+            text-align: left;
+            vertical-align:text-top;
+        }
+
+        .secondcolumn {
+            width: 200px;
+            display: inline-block;
+            text-align: left;
+        }
+
+       
+
+        /*.center table .innerTable td a {
+                        width: 20px;
+                        display: inline-block;
+                        text-align: right;
+                    }*/
 
         .center p {
             line-height: 1.5;
@@ -40,318 +87,343 @@
             vertical-align: middle;
         }
 
-        .center table .innerTable {
-            width: 780px;
-            border-collapse: collapse;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        .myButton {
+            -moz-box-shadow: inset 0px 0px 14px -3px #f2fadc;
+            -webkit-box-shadow: inset 0px 0px 14px -3px #f2fadc;
+            box-shadow: inset 0px 0px 14px -3px #f2fadc;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dbe6c4), color-stop(1, #9ba892));
+            background: -moz-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+            background: -webkit-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+            background: -o-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+            background: -ms-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+            background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbe6c4', endColorstr='#9ba892',GradientType=0);
+            background-color: #dbe6c4;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            border: 1px solid #b2b8ad;
+            display: inline-block;
+            cursor: pointer;
+            color: #757d6f;
+            font-family: Arial;
             font-size: 12px;
-            color: #323232;
-            border: 0px;
+            font-weight: bold;
+            padding: 6px 24px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #ced9bf;
         }
 
-            /*.center table .innerTable td {
-                width: 10%
+            .myButton:hover {
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9ba892), color-stop(1, #dbe6c4));
+                background: -moz-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+                background: -webkit-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+                background: -o-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+                background: -ms-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+                background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ba892', endColorstr='#dbe6c4',GradientType=0);
+                background-color: #9ba892;
             }
 
-            .center table .innerTable td {
-                width: 80%
+            .myButton:active {
+                position: relative;
+                top: 1px;
             }
-
-            .center table .innerTable th {
-                width: 20%
-            }*/
     </style>
+
 </head>
 <body>
-    <div class="textcenter">
+    <div class="textcenter enjoy-css">
         <p>AWS - Online Tech Talks May, 2018</p>
     </div>
     <div class="center">
         <table cellpadding="7">
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Analytics & Big Data</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">
+                        Analytics & Big Data
+                    </span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Integrating Amazon Elasticsearch with your DevOps Tooling</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Integrating-Amazon-Elasticsearch-with-your-DevOps-Tooling_0502-ABD.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 21, 2018</td>
+                            <td class="firstColumn">Integrating Amazon Elasticsearch with your DevOps Tooling</td>
+                            <td class="secondcolumn">May 21, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Integrating-Amazon-Elasticsearch-with-your-DevOps-Tooling_0502-ABD.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                         <tr>
-                            <td width="70%">Data Warehousing and Data Lake Analytics, Together</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Data-Warehousing-and-Data-Lake-Analytics-Together_0508-ABD.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 23, 2018</td>
+                            <td class="firstColumn">Data Warehousing and Data Lake Analytics, Together</td>
+                            <td class="secondcolumn">May 23, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Data-Warehousing-and-Data-Lake-Analytics-Together_0508-ABD.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                         <tr>
-                            <td width="70%"">Data Transformation Patterns in AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Data-Transformation-Patterns-in-AWS_0511-ABD.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 24, 2018</td>
+                            <td class="firstColumn">Data Transformation Patterns in AWS</td>
+                            <td class="secondcolumn">May 24, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Data-Transformation-Patterns-in-AWS_0511-ABD.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                         <tr>
-                            <td width="70%">McGraw-Hill Optimizes Analytics Workloads with Databricks</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/bigdata-databricks-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_bigdata-databricks-june2018_20180413&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001FOsG&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 24, 2018</td>
+                            <td class="firstColumn">McGraw-Hill Optimizes Analytics Workloads with Databricks</td>
+                            <td class="secondcolumn">May 24, 2018</td>
+                            <td><a href="https://pages.awscloud.com/bigdata-databricks-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_bigdata-databricks-june2018_20180413&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001FOsG&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Compute</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Compute</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Creating and Managing a WordPress Website with Amazon Lightsail</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Creating-and-Managing-a-WordPress-Website-with-Amazon-Lightsail_0514-CMP.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 29, 2018</td>
+                            <td class="firstColumn">Creating and Managing a WordPress Website with Amazon Lightsail</td>
+                            <td class="secondcolumn">May 29, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Creating-and-Managing-a-WordPress-Website-with-Amazon-Lightsail_0514-CMP.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                         <tr>
-                            <td width="70%">Accelerating Life Sciences with HPC on AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Accelerating-Life-Sciences-with-HPC-on-AWS_0517-CMP.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 30, 2018</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Containers</b>
-                </td>
-            </tr>
-            <tr>
-                <td style="vertical-align:top;" colspan="2">
-                    <table cellpadding="5" class="innerTable">
-                        <tr>
-                            <td width="70%">Building Microservices with the 12 Factor App Pattern on AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Building-Microservices-with-the-12-Factor-App-Pattern-on-AWS_0512-CON.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 24, 2018</td>
+                            <td class="firstColumn">Accelerating Life Sciences with HPC on AWS</td>
+                            <td class="secondcolumn">May 30, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Accelerating-Life-Sciences-with-HPC-on-AWS_0517-CMP.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Databases</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Containers</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">How to Migrate from Cassandra to Amazon DynamoDB</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/How-to-Migrate-from-Cassandra-to-Amazon-DynamoDB_0503-DAT.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 21, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">10 Hacks for Optimizing MySQL in the Cloud</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/5-Hacks-for-Optimizing-MySQL-in-the-Cloud_0509-DAT.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 23, 2018</td>
+                            <td class="firstColumn">Building Microservices with the 12 Factor App Pattern on AWS</td>
+                            <td class="secondcolumn">May 24, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Building-Microservices-with-the-12-Factor-App-Pattern-on-AWS_0512-CON.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>DevOps</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Databases</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">.NET Serverless Development on AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/NET-Serverless-Development-on-AWS_0507-DEV.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 23, 2018</td>
+                            <td class="firstColumn">How to Migrate from Cassandra to Amazon DynamoDB</td>
+                            <td class="secondcolumn">May 21, 2018</td>
+                            <td><a href="https://pages.awscloud.com/How-to-Migrate-from-Cassandra-to-Amazon-DynamoDB_0503-DAT.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">10 Hacks for Optimizing MySQL in the Cloud</td>
+                            <td class="secondcolumn">May 23, 2018</td>
+                            <td><a href="https://pages.awscloud.com/5-Hacks-for-Optimizing-MySQL-in-the-Cloud_0509-DAT.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Enterprise & Hybrid</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">DevOps</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Hybrid Cloud Customer Use Cases on AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Hybrid-Cloud-Customer-Use-Cases-on-AWS_0505-ENT.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 22, 2018</td>
+                            <td class="firstColumn">.NET Serverless Development on AWS</td>
+                            <td class="secondcolumn">May 23, 2018</td>
+                            <td><a href="https://pages.awscloud.com/NET-Serverless-Development-on-AWS_0507-DEV.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>IOT</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Enterprise & Hybrid</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Using AWS IoT for Industrial Applications</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Using-AWS-IoT-for-Industrial-Applications_0519-IOT.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 31, 2018</td>
+                            <td class="firstColumn">Hybrid Cloud Customer Use Cases on AWS</td>
+                            <td class="secondcolumn">May 22, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Hybrid-Cloud-Customer-Use-Cases-on-AWS_0505-ENT.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Machine Learning</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">IOT</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Using Apache Spark with Amazon SageMaker</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Using-Apache-Spark-with-Amazon-SageMaker_0504-MCL.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 22, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">Practical Human-in-the-Loop Machine Learning</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/ai-ml-figureeight-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-figureeight-may2018_20180329&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001M8P3&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 22, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">How Trupanion Became an AI-driven Company for Pets</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/ai-ml-datarobot-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-datarobot-may2018_20180302&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmD&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 23, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">Introducing AWS DeepLens</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Introducing-AWS-DeepLens_0510-MCL.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 24, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">How a Rideshare Giant Uses AI to Detect Business Anomalies</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/ai-ml-anodot-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-anodot-may2018_20180302&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmS&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 24, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">How Deloitte Uses AI to Simplify Reporting and Increase Value</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/ai-ml-narrativescience-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-narrativescience-may2018_20180302&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001Tqik&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 30, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">How to Wrangle Data for Machine Learning on AWS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/ai-ml-trifacta-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-trifacta-may2018_20180302&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmI&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 31, 2018</td>
+                            <td class="firstColumn">Using AWS IoT for Industrial Applications</td>
+                            <td class="secondcolumn">May 31, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Using-AWS-IoT-for-Industrial-Applications_0519-IOT.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Management Tools</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Machine Learning</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Gaining Better Observability of Your VMs with Amazon CloudWatch</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Gaining-Better-Observability-of-Your-VMs-with-Amazon-CloudWatch_0501-MGT.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 21, 2018</td>
+                            <td class="firstColumn">Using Apache Spark with Amazon SageMaker</td>
+                            <td class="secondcolumn">May 22, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Using-Apache-Spark-with-Amazon-SageMaker_0504-MCL.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">Practical Human-in-the-Loop Machine Learning</td>
+                            <td class="secondcolumn">May 22, 2018</td>
+                            <td><a href="https://pages.awscloud.com/ai-ml-figureeight-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-figureeight-may2018_20180329&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001M8P3&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">How Trupanion Became an AI-driven Company for Pets</td>
+                            <td class="secondcolumn">May 23, 2018</td>
+                            <td><a href="https://pages.awscloud.com/ai-ml-datarobot-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-datarobot-may2018_20180302&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmD&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">Introducing AWS DeepLens</td>
+                            <td class="secondcolumn">May 24, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Introducing-AWS-DeepLens_0510-MCL.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">How a Rideshare Giant Uses AI to Detect Business Anomalies</td>
+                            <td class="secondcolumn">May 24, 2018</td>
+                            <td><a href="https://pages.awscloud.com/ai-ml-anodot-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-anodot-may2018_20180302&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmS&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">How Deloitte Uses AI to Simplify Reporting and Increase Value</td>
+                            <td class="secondcolumn">May 30, 2018</td>
+                            <td><a href="https://pages.awscloud.com/ai-ml-narrativescience-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-narrativescience-may2018_20180302&sc_publisher=aws&sc_content=awspartner_wew_partnermkt&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001Tqik&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">How to Wrangle Data for Machine Learning on AWS</td>
+                            <td class="secondcolumn">May 31, 2018</td>
+                            <td><a href="https://pages.awscloud.com/ai-ml-trifacta-may2018.html?sc_channel=em&sc_campaign=AWS_Partner_namer_WEW_ai-ml-trifacta-may2018_20180302&sc_publisher=aws&sc_country=us&sc_geo=namer&sc_category=mult&sc_outcome=awspartner&source=em_70138000001TqmI&trk=aws_techtalk_website&trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Mobile</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Management Tools</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Deep Dive on Amazon Pinpoint Segmentation and Endpoint Management</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Deep-Dive-on-Amazon-Pinpoint-Segmentation-and-Endpoint-Management_0513-MBL.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 29, 2018</td>
+                            <td class="firstColumn">Gaining Better Observability of Your VMs with Amazon CloudWatch</td>
+                            <td class="secondcolumn">May 21, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Gaining-Better-Observability-of-Your-VMs-with-Amazon-CloudWatch_0501-MGT.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Networking</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Mobile</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Making Private Connectivity the New Norm via AWS PrivateLink</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Making-Private-Connectivity-the-New-Norm-via-AWS-PrivateLink_0518-NET.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 31, 2018</td>
+                            <td class="firstColumn">Deep Dive on Amazon Pinpoint Segmentation and Endpoint Management</td>
+                            <td class="secondcolumn">May 29, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Deep-Dive-on-Amazon-Pinpoint-Segmentation-and-Endpoint-Management_0513-MBL.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Security, Identity & Compliance</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Networking</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Introducing AWS Certificate Manager Private Certificate Authority (CA)</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Introducing-AWS-Certificate-Manager-Private-Certificate-Authority-CA_0515-SID.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 30, 2018</td>
-                        </tr>
-                        <tr>
-                            <td width="70%">Introducing AWS Firewall Manager</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Introducing-AWS-Firewall-Manager_0521-SID.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">June 1, 2018</td>
+                            <td class="firstColumn">Making Private Connectivity the New Norm via AWS PrivateLink</td>
+                            <td class="secondcolumn">May 31, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Making-Private-Connectivity-the-New-Norm-via-AWS-PrivateLink_0518-NET.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Serverless</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Security, Identity & Compliance</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Building API-Driven Microservices with Amazon API Gateway</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Building-API-Driven-Microservices-with-Amazon-API-Gateway_0506-SRV.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 22, 2018</td>
+                            <td class="firstColumn">Introducing AWS Certificate Manager Private Certificate Authority (CA)</td>
+                            <td class="secondcolumn">May 30, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Introducing-AWS-Certificate-Manager-Private-Certificate-Authority-CA_0515-SID.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                        <tr>
+                            <td class="firstColumn">Introducing AWS Firewall Manager</td>
+                            <td class="secondcolumn">June 1, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Introducing-AWS-Firewall-Manager_0521-SID.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:left; font-size:14px;">
-                    <b>Storage</b>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Serverless</span>
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align:top;" colspan="2">
+                <td>
                     <table cellpadding="5" class="innerTable">
                         <tr>
-                            <td width="70%">Accelerate Productivity by Computing at the Edge</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Accelerate-Productivity-by-Computing-at-the-Edge_0516-STG.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">May 30, 2018</td>
+                            <td class="firstColumn">Building API-Driven Microservices with Amazon API Gateway</td>
+                            <td class="secondcolumn">May 22, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Building-API-Driven-Microservices-with-Amazon-API-Gateway_0506-SRV.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#323232;font-weight:bold;">Storage</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellpadding="5" class="innerTable">
+                        <tr>
+                            <td class="firstColumn">Accelerate Productivity by Computing at the Edge</td>
+                            <td class="secondcolumn">May 30, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Accelerate-Productivity-by-Computing-at-the-Edge_0516-STG.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                         <tr>
-                            <td width="70%">Learn to Build a Cloud-Scale Website Powered by Amazon EFS</td>
-                            <td width="10%"><a href="https://pages.awscloud.com/Learn-to-Build-a-Cloud-Scale-Website-Powered-by-Amazon-EFS_0522-STG.html?trk=el_a131L0000057230QAA" target="_blank">Register</a></td>
-                            <td width="20%">June 1, 2018</td>
+                            <td class="firstColumn">Learn to Build a Cloud-Scale Website Powered by Amazon EFS</td>
+                            <td class="secondcolumn">June 1, 2018</td>
+                            <td><a href="https://pages.awscloud.com/Learn-to-Build-a-Cloud-Scale-Website-Powered-by-Amazon-EFS_0522-STG.html?trk=el_a131L0000057230QAA" class="myButton" target="_blank">Register</a></td>
                         </tr>
                     </table>
                 </td>
