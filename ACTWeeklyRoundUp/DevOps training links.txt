@@ -1,0 +1,12 @@
+https://www.nagios.com/solutions/training/
+https://learn.newrelic.com/webcasts
+https://learn.puppet.com/category/self-paced-training
+https://www.jfrog.com/confluence/display/RTF/Welcome+to+Artifactory
+https://jfrog.com/blog/skill-up-at-swampup/
+https://training.play-with-docker.com/
+https://www.splunk.com/en_us/training.html
+https://www.udemy.com/complete-elasticsearch-masterclass-with-kibana-and-logstash/
+https://kubernetes.io/docs/tutorials/online-training/overview/
+https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
+https://www.udemy.com/kubernetes-from-a-devops-kubernetes-guru/
+https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS158x+1T2018/course/
