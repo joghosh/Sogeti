@@ -4,6 +4,50 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        .myButton {
+            -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+            -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+            box-shadow: 0px 1px 0px 0px #fff6af;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+            background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+            background-color: #ffec64;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            border: 1px solid #ffaa22;
+            display: inline-block;
+            cursor: pointer;
+            color: #333333;
+            font-family: Arial;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 6px 24px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #ffee66;
+        }
+
+            .myButton:hover {
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+                background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+                background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+                background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+                background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+                background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+                background-color: #ffab23;
+            }
+
+            .myButton:active {
+                position: relative;
+                top: 1px;
+            }
+    </style>
 </head>
 <body>
     <div class=WordSection1>
@@ -33,27 +77,7 @@
                     </table>
                 </td>
             </tr>
-            <tr style="background-color:#FF3300;">
-                <td colspan="2" style="text-align:center">
-                    <span style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:14px;color:#ffffff;">Microsoft Sogeti Summary Report</span>
-                </td>
-            </tr>
-            <tr>
-                <td style="width:160px;vertical-align:top;background-color:#323232;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/MicrosoftSogetiSummary.jpg?raw=true" /></td>
-                <td style="padding:6px 7px 4px 4px;vertical-align:top;width:640px;">
-                    <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
-                        <tr style="vertical-align:top">
-                            <td style="font-weight:bold;">
-                                Please find <a href="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Sogeti%20Summary%20Report/Report-05282018.pdf?raw=true" target="_blank">Microsoft Sogeti Summary report</a> from Carla Heimbigner.
-                                Please feel free to connect with <a href="mailto:Carla.Heimbigner@us.sogeti.com">Carla</a> if you would like to know more.
-                                <br />
-                                <br />
-                                <br /><br /><br />
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
+           
             <!--CERTIFICATIONS-->
             <tr style="background-color:#FF3300;">
                 <td colspan="2" style="text-align:center">
@@ -65,6 +89,11 @@
                 <td style="width:160px;vertical-align:middle;background-color:#0072C5;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/image007.jpg?raw=true" /></td>
                 <td style="padding:6px 7px 4px 4px;vertical-align:top;width:640px;">
                     <table cellpadding="5" style="width:100%; border-radius: 5px; border: 1px solid #dcd6d6; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
+                        <tr style="vertical-align:top">
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod" colspan="4">
+                                Azure Certifications
+                            </td>
+                        </tr>
                         <tr style="vertical-align:text-top">
                             <td width="20%">
                                 70-473
@@ -198,9 +227,12 @@
                 <td style="width:160px;vertical-align:middle;background-color:#FFCB06;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/image002.jpg?raw=true" /></td>
                 <td style="padding:6px 7px 4px 4px;vertical-align:top;width:640px;">
                     <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
-                        <tr>
-                            <td colspan="5"><b>Note: </b><font style="background-color:#faf761">If you are facing issues logging in to AWS Partner portal to complete your certification, please submit a ticket <a href="https://www.apn-portal.com/knowledgebase/?cu=1&amp;fs=ContactUs&amp;l=en_US" target="_blank">here</a> to get a resolution.</font></td>
+                        <tr style="vertical-align:top">
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod" colspan="5">
+                                AWS Certifications
+                            </td>
                         </tr>
+                       
                         <tr style="vertical-align:text-top">
                             <td width="20%">
                                 <b>Foundation Certification</b>
@@ -319,41 +351,86 @@
                 <td style="padding:4px 7px 2px 4px;vertical-align:top;width:640px;">
                     <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
                         <tr style="vertical-align:top">
-                            <td style="font-weight:bolder;font-style:oblique; width:30%">
-                                <font style="background-color:#f6f18f">Following are the list of Google Certifications</font>
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod">
+                                Google Cloud Certifications
                             </td>
-                            <td style="text-align:left;">
-                                <ul>
-                                    <li><a href="https://cloud.google.com/certification/cloud-engineer" target="_blank">Associate Cloud Engineer</a></li>
-                                    <li><a href="https://cloud.google.com/certification/cloud-architect/" target="_blank">Professional Cloud Architect</a></li>
-                                    <li><a href="https://cloud.google.com/certification/data-engineer/" target="_blank">Professional Data Engineer</a></li>
-                                    <li><a href="https://cloud.google.com/certification/gsuite-administrator/" target="_blank">G Suite Administrator</a></li>
-                                    <li><a href="https://cloud.google.com/certification/gsuite" target="_blank">G Suite</a></li>
-                                    <li><a href="https://developers.google.com/training/certification/associate-android-developer/" target="_blank">Associate Android Developer</a></li>
-                                    <li><a href="https://developers.google.com/training/certification/mobile-web-specialist/" target="_blank">Mobile Web Specialist</a></li>
-                                </ul>
-                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
                             <td>
-                                <a href="https://cloud.google.com/certification/" target="_blank"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/Google%20Certified%20Cloud%20Architect-small.png?raw=true" /></a>
+                                <div style="float:left;">Associate Cloud Engineer</div>
+                                <div style="float:right"><a href="https://cloud.google.com/certification/cloud-engineer" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Professional Cloud Architect</div>
+                                <div style="float:right"><a href="https://cloud.google.com/certification/cloud-architect/" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Professional Data Engineer</div>
+                                <div style="float:right"><a href="https://cloud.google.com/certification/data-engineer/" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">G Suite Administrator</div>
+                                <div style="float:right"><a href="https://cloud.google.com/certification/gsuite-administrator/" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">G Suite</div>
+                                <div style="float:right"><a href="https://cloud.google.com/certification/gsuite" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Associate Android Developer</div>
+                                <div style="float:right"><a href="https://developers.google.com/training/certification/associate-android-developer/" target="_blank" class="myButton">Register Exam</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Mobile Web Specialist</div>
+                                <div style="float:right"><a href="https://developers.google.com/training/certification/mobile-web-specialist/" target="_blank" class="myButton">Register Exam</a></div>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
+
             <!--Data Science Certification-->
             <tr>
-                <td style="width:160px;vertical-align:middle;background-color:#ffffff;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/DataScience1-xxsmall.png?raw=true" /></td>
+                <td style="width:160px;vertical-align:top;background-color:#ffffff;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/DataScience1-xxsmall.png?raw=true" /></td>
                 <td style="padding:4px 7px 2px 4px;vertical-align:top;width:640px;">
                     <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
-                        <tr style="vertical-align:text-top">
-                            <td colspan="5">
-                                <a href="https://aws.amazon.com/certification/" target="_blank"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/DataScienceCareer.jpg?raw=true" /></a>
+                        <tr style="vertical-align:top">
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod">
+                                Data Science Certifications
                             </td>
                         </tr>
-                        <tr>
-                            <td style="text-align:center">
-                                <p><a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/DataScience/DataCamp.html" target="_blank">Courses for Python Data Scientist</a></p>
-                                <p><a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/DataScience/DataCampWithR.html" target="_blank">Courses for R Data Scientist</a></p>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Courses for Python Data Scientist</div>
+                                <div style="float:right"><a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/DataScience/DataCamp.html" target="_blank" class="myButton">View Courses</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Courses for R Data Scientist</div>
+                                <div style="float:right"><a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/DataScience/DataCampWithR.html" target="_blank" class="myButton">View Courses</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod">
+                               Data Science Learning Path
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:text-top">
+                            <td colspan="5">
+                                <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/DataScienceCareer.jpg?raw=true" />
                             </td>
                         </tr>
                     </table>
@@ -361,39 +438,130 @@
             </tr>
             <!--DevOps Certification-->
             <tr>
-                <td style="width:160px;vertical-align:middle;background-color:#00786E;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/image003.jpg?raw=true" /></td>
+                <td style="width:160px;vertical-align:top;background-color:#ffffff;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/DevOpsCertification-small.jpg?raw=true" /></td>
                 <td style="padding:6px 7px 4px 4px;vertical-align:top;width:640px;">
-                    <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
+                    <table cellpadding="5" style="width:100%; border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:12px; color:#323232;">
                         <tr style="vertical-align:top">
-                            <td style="font-weight:bolder; width:30%;" colspan="2">
-                                <font style="font-size:14px; color:goldenrod"><b>Available DevOps Certifications</b></font>
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod">
+                                Available DevOps Certifications
                             </td>
                         </tr>
-                        <tr style="vertical-align:middle">
-                            <td style="text-align:left;">
-                                AWS Certified SysOps Administrator - Associate
-                            </td>
-                            <td style="text-align:left;">
-                                <a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">AWS Certified SysOps Administrator - Associate</div>
+                                <div style="float:right"><a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/" target="_blank" class="myButton">View Details</a></div>
                             </td>
                         </tr>
-                        <tr style="vertical-align:middle">
-                            <td style="text-align:left;">
-                                AWS Certified SysOps Administrator - Associate
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">AWS Certified DevOps Engineer - Professional</div>
+                                <div style="float:right"><a href="https://aws.amazon.com/certification/certified-devops-engineer-professional/" target="_blank" class="myButton">View Details</a></div>
                             </td>
-                            <td style="text-align:left;">
-                                <a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Puppet Certification Program</div>
+                                <div style="float:right"><a href="https://puppetlabs.com/services/certification" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Red Hat Certificate of Expertise in Ansible Automation exam</div>
+                                <div style="float:right"><a href="https://www.redhat.com/en/services/training/ex407-red-hat-certified-specialist-in-ansible-automation-exam" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Docker Certification</div>
+                                <div style="float:right"><a href="https://success.docker.com/certification" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Kubernetes Certification</div>
+                                <div style="float:right"><a href="https://linuxacademy.com/blog/devops/kubernetes-certifications/" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Chef Certification</div>
+                                <div style="float:right"><a href="https://training.chef.io/certification" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td style="font-weight:bolder; font-size:14px; font-weight:bold; color:goldenrod">
+                                DevOps Certifications from DevOps Academy
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Generalist</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Generalist_DevOps_GEN_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Executive</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Executive_DevOps_EXEC_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Project Manager</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Project_Manager_DevOps_PM_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Product Owner</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Product_Owner_DevOps_PO_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Architect</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Architect_DevOps_ARCH_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Developer</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Developer_DevOps_DEV_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Operations Engineer</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Operations_Engineer_DevOps_OPS_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Quality Assurance Engineer</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Quality_Assurance_Test_Engineer_DevOps_QA_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Information Security Engineer</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Information_Security_Engineer_DevOps_SEC_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Release Manager</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Release_Manager_DevOps_RM_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                <div style="float:left;">Certified DevOps Trainer</div>
+                                <div style="float:right"><a href="https://www.devops-certification.org/Certified_DevOps_Trainer_DevOps_TRA_Certification_Program.php" target="_blank" class="myButton">View Details</a></div>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-
-
 
             <!--GLOBAL EVENTS-->
             <tr style="background-color:#FF3300;">
@@ -436,7 +604,6 @@
                         </tr>
                         <tr style="vertical-align:top;background-color:#21274E;">
                             <td style="font-weight:bold; padding-left:20px; vertical-align:middle;">
-                                <p><a href="https://aws.amazon.com/summits/mexico-city/" target="_blank" style="color:#ffffff;">Mexico May 31, 2018</a></p>
                                 <p><a href="https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/" target="_blank" style="color:#ffffff;">Washington June 20 - June 21, 2018</a></p>
                             </td>
                             <td style="text-align:right; vertical-align:middle;"><img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/image049.jpg?raw=true" /></td>
@@ -535,12 +702,10 @@
                     <table cellpadding="5" style="width:100%;border-radius: 5px; border: 1px solid #dcd6d6;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:11px; color:#323232;">
                         <tr>
                             <td width="80%" style="vertical-align:middle;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:12px;color:#323232;font-weight:bold;">
-                                Microsoft Partner Series Training Schedule (Week of June 4 - 8)
+                                Microsoft Partner Series Training Schedule (Week of June 13 - 19)
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSPartnerTraining/partnertraining-June2018FirstWeek.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSPartnerTraining/partnertraining-June2018SecondWeek.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -548,9 +713,7 @@
                                 Cloud Development Courses from Microsoft Virtual Academy
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSTraining/cloudacademy-azure.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSTraining/cloudacademy-azure.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -558,9 +721,7 @@
                                 <b>Exam 70-473</b> - Designing and Implementing Cloud Data Platform Solutions
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-473.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-473.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -568,9 +729,7 @@
                                 <b>Exam 70-475</b> - Designing and Implementing Big Data Analytics Solutions
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-475.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-475.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -578,9 +737,7 @@
                                 <b>Exam 70-487</b> - Developing Microsoft Azure and Web Services
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-487.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-487.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -588,9 +745,7 @@
                                 <b>Exam 70-532</b> - Developing Microsoft Azure Solutions
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-532.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-532.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -598,9 +753,7 @@
                                 <b>Exam 70-533</b> - Implementing Microsoft Azure Infrastructure Solutions
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-533.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-533.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -608,9 +761,7 @@
                                 <b>Exam 70-535</b> - Architecting Microsoft Azure Solutions
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-535.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-535.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -618,9 +769,7 @@
                                 <b>Exam 70-537</b> - Configuring and Operating a Hybrid Cloud with Microsoft Azure Stack
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-537.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-537.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -628,9 +777,7 @@
                                 <b>Exam 70-774</b> - Perform Cloud Data Science with Azure Machine Learning
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-774.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-774.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -638,9 +785,7 @@
                                 <b>Exam 70-775</b> - Perform Data Engineering on Microsoft HD Insight
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-775.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-775.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -648,9 +793,7 @@
                                 <b>Exam 70-776</b> - Engineering Data with Microsoft Cloud Services
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-776.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSExams/70-776.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -658,9 +801,7 @@
                                 Azure - Free, Self-paced Hands On Labs
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSHandOnLabs/azurehandsonlabs.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/MSHandOnLabs/azurehandsonlabs.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                     </table>
@@ -683,9 +824,7 @@
                                 AWS - Online Tech Talks
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/AWSOnlineTalksMay2018/awsonlinetalks-may2018.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/AWSOnlineTalksMay2018/awsonlinetalks-may2018.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -693,9 +832,7 @@
                                 AWS - Solution Training for Partners
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/AWSPartnerTraining/awspartnertraining-june2018.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/EmailStorage/AWSPartnerTraining/awspartnertraining-june2018.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                     </table>
@@ -722,9 +859,7 @@
                                 Certification Courses from Google
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/master/ACTWeeklyRoundUp/EmailStorage/GoogleTraining/googlecourses.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/master/ACTWeeklyRoundUp/EmailStorage/GoogleTraining/googlecourses.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -732,9 +867,7 @@
                                 Google Cloud Platform Technical Training
                             </td>
                             <td width="20%">
-                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/master/ACTWeeklyRoundUp/EmailStorage/GoogleTraining/googlecloudtraining-june2018.html" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="http://htmlpreview.github.io/?https://github.com/joghosh/Sogeti/master/ACTWeeklyRoundUp/EmailStorage/GoogleTraining/googlecloudtraining-june2018.html" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -742,9 +875,7 @@
                                 G Suite Sales Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/geonext/google/displaywidgetpage.geo?id=IHJ+rJiox11rHsy91uI/fT6LwIiiEqZibvhJpJ7e8FGaEFVnd8SvnA==#manuallyInitiated" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/geonext/google/displaywidgetpage.geo?id=IHJ+rJiox11rHsy91uI/fT6LwIiiEqZibvhJpJ7e8FGaEFVnd8SvnA==#manuallyInitiated" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -752,9 +883,7 @@
                                 Google Cloud Platform Sales Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=eNQm56%2fjPynYZ4ZZ1QUgscp9xkBGVQCe%2fu623DoyNhj%2fwnYiqPc2dw%3d%3d&nav=cld-sls-lp" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=eNQm56%2fjPynYZ4ZZ1QUgscp9xkBGVQCe%2fu623DoyNhj%2fwnYiqPc2dw%3d%3d&nav=cld-sls-lp" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -762,9 +891,7 @@
                                 Google Chrome Sales Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=L5OAYUh7iJDeWVWLgym8RDh0yo5y--DdHVfWZmaAKAC26pMQrlKRDQ..&nav=chr-sls-lp-nav" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=L5OAYUh7iJDeWVWLgym8RDh0yo5y--DdHVfWZmaAKAC26pMQrlKRDQ..&nav=chr-sls-lp-nav" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -772,9 +899,7 @@
                                 Google Maps Sales Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=l35GRehrs4abfNjEFxaGRzIKK5Eo0tSczt9uj4MIqy831WSE%20aDaRQ==#manuallyInitiated" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=l35GRehrs4abfNjEFxaGRzIKK5Eo0tSczt9uj4MIqy831WSE%20aDaRQ==#manuallyInitiated" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -782,9 +907,7 @@
                                 G Suite Deployment Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=5i29Cd6G4hWmAzznkSsMT%2fkGTGsdTZm5jhzUP0f3q0bP0h6bP0GOdw%3d%3d&nav=apps-dep-lps" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=5i29Cd6G4hWmAzznkSsMT%2fkGTGsdTZm5jhzUP0f3q0bP0h6bP0GOdw%3d%3d&nav=apps-dep-lps" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -792,9 +915,7 @@
                                 Google Chrome Deployment Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=OzQeniJ0TuLN957O0dEEHm2Z3yanbTwGRJqsJQyfO2KSIZHplBhGcA..&nav=LinktoChromeDeploymentLP" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=OzQeniJ0TuLN957O0dEEHm2Z3yanbTwGRJqsJQyfO2KSIZHplBhGcA..&nav=LinktoChromeDeploymentLP" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -802,19 +923,15 @@
                                 Google Maps Deployment Training
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=Jnb3AtjfGuKZMijZZuujiKjUcTxu4II5Q%2bywwsXo6fDPS%2b8V%2fEgWhQ%3d%3d&nav=geo-dep-lp" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/displaywidgetpage.geo?id=Jnb3AtjfGuKZMijZZuujiKjUcTxu4II5Q%2bywwsXo6fDPS%2b8V%2fEgWhQ%3d%3d&nav=geo-dep-lp" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
                             <td width="80%" style="vertical-align:middle;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:12px;color:#323232;font-weight:bold;">
-                                G Suite Customer Success: Technology (Apps 300) 
+                                G Suite Customer Success: Technology (Apps 300)
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506350451" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506350451" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -822,29 +939,23 @@
                                 G Suite Customer Success: People (Apps 400)
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506350446" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506350446" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
                             <td width="80%" style="vertical-align:middle;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:12px;color:#323232;font-weight:bold;">
-                                G Suite Customer Success: Process: (Apps 600) 
+                                G Suite Customer Success: Process: (Apps 600)
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22507267595&selectTab=Scheduled+Classes" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22507267595&selectTab=Scheduled+Classes" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
                             <td width="80%" style="vertical-align:middle;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size:12px;color:#323232;font-weight:bold;">
-                                G Suite Customer Success: Expanding your Business: (Apps 700) 
+                                G Suite Customer Success: Expanding your Business: (Apps 700)
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22507267599&selectTab=Scheduled+Classes" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22507267599&selectTab=Scheduled+Classes" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                         <tr>
@@ -852,9 +963,7 @@
                                 G Suite: Deployment Essentials - Prerequisite for Apps 300 class
                             </td>
                             <td width="20%">
-                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506369183&selectTab=Scheduled+Classes" target="_blank">
-                                    <img src="https://github.com/joghosh/Sogeti/blob/master/ACTWeeklyRoundUp/Images/ViewDetails-xxsmall.jpg?raw=true" />
-                                </a>
+                                <a href="https://gm1.geolearning.com/geonext/google/coursesummary.CourseCatalog.geo?id=22506369183&selectTab=Scheduled+Classes" target="_blank" class="myButton">Training Schedule</a>
                             </td>
                         </tr>
                     </table>
