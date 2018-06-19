@@ -4,3 +4,25 @@ https://aws.amazon.com/about-aws/events/monthlywebinarseries/?&trk=el_a131L00000
 
 
 https://blogs.technet.microsoft.com/msuspartner/category/training-schedule/
+
+
+https://opensource.microsoft.com/
+https://github.com/dotnet/machinelearning
+https://www.ailab.microsoft.com/experiments
+https://www.microsoft.com/en-us/internet-of-things/customer-stories-healthcare
+http://customers.microsoft.com/en-us/search?sq=internet%20of%20things&ff=&p=0&so=story_publish_date%20desc
+https://blogs.microsoft.com/iot/
+https://microsoft.github.io/techcasestudies/
+https://www.devops-certification.org/
+https://www.quora.com/Is-there-any-certification-for-DevOps-If-yes-which-certifications-must-a-devops-engineer-possess
+
+https://www.cloudfoundry.org/the-foundry/google-cloud-platform/
+https://cloud.google.com/
+https://cloud.withgoogle.com/next18/sf/?utm_source=cloud.google.com&utm_medium=et&utm_campaign=cloud.google.com
+https://www.cloudreach.com/blog/google-certified-professional-cloud-architect-exam/
+https://www.udemy.com/gcp-data-engineer-and-cloud-architect/
+https://www.cloudreach.com/blog/category/learning-development/exam-resources/
+https://medium.com/google-cloud/gcp-products-described-in-4-words-or-less-f3056550e595
+
+https://github.com/aws-samples
+https://aws.amazon.com/training/
