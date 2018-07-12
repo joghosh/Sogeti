@@ -306,8 +306,8 @@ function fnSetActiveSheet(iSh)
   </x:ExcelWorksheets>
   <x:Stylesheet
    HRef="Sogeti%20Certification%20Report%20July%202018_files/stylesheet.css"/>
-  <x:WindowHeight>7545</x:WindowHeight>
-  <x:WindowWidth>20490</x:WindowWidth>
+  <x:WindowHeight>4470</x:WindowHeight>
+  <x:WindowWidth>15345</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
   <x:ProtectStructure>False</x:ProtectStructure>
